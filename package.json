@@ -1,0 +1,28 @@
+{
+  "name": "node-exercise",
+  "version": "1.0.0",
+  "description": "Grow node exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/spencerdcarlson/node-exercise.git"
+  },
+  "keywords": [
+    "node",
+    "test",
+    "Grow"
+  ],
+  "author": "Spencer Carlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencerdcarlson/node-exercise/issues"
+  },
+  "homepage": "https://github.com/spencerdcarlson/node-exercise#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
