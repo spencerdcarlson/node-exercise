@@ -66,6 +66,7 @@ app.get('/planets', async (req, res) => {
 
     const apiQueue = []
 
+    // NOTE: could pull out duplicate 'pagination' logic
     do {
         try {
             result = await api.get({url});
